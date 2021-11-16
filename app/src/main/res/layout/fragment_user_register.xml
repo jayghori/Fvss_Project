@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:elevation="30dp"
+        app:cardCornerRadius="6dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:clickable="false"
+                android:gravity="center"
+                android:text="          Welcome User"
+                android:textColor="@color/backColor"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/edtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Name"
+                android:singleLine="true"
+                android:textColor="@color/backColor"
+                android:textColorHint="@color/backColor" />
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter email"
+                android:singleLine="true"
+                  android:textColor="@color/backColor"
+                android:textColorHint="@color/backColor" />
+
+            <EditText
+                android:id="@+id/edtPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter PhoneNumber"
+                android:inputType="phone"
+                android:singleLine="true"
+                android:maxLength="10"
+                android:textColor="@color/backColor"
+                android:textColorHint="@color/backColor" />
+
+            <EditText
+                android:id="@+id/edtAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Address"
+                android:singleLine="true"
+                android:textColor="@color/backColor"
+                android:textColorHint="@color/backColor" />
+
+            <EditText
+                android:id="@+id/edtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Create passcode"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textColor="@color/backColor"
+                android:textColorHint="@color/backColor" />
+
+            <EditText
+                android:id="@+id/edtReEnterPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Re-enter passcode"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textColor="@color/backColor"
+                android:textColorHint="@color/backColor" />
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bccolor"
+                android:text="Register"
+                android:textAllCaps="false"
+                android:textColor="#403F3F"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:id="@+id/tvLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="#FAF6F6">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Have an Account?"
+                    android:textColor="@color/backColor" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Log in"
+                    android:textColor="#ffff0000" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

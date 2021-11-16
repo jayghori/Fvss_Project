@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1054236865432",
+    "project_id": "fvss-project",
+    "storage_bucket": "fvss-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054236865432:android:fe53ca8e667c6c445831ed",
+        "android_client_info": {
+          "package_name": "com.example.fvss_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054236865432-dd47l0r628vu80282alhgi7fc4c2b9v0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzwEUrW6yV4qhyr6mULledfNTjr57w4lY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054236865432-dd47l0r628vu80282alhgi7fc4c2b9v0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

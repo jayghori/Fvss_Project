@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android studio project/Fvss_Project/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
+        <entry key="..\:/Android studio project/Fvss_Project/app/src/main/res/drawable/add_icon.xml" value="0.2703125" />
+        <entry key="..\:/Android studio project/Fvss_Project/app/src/main/res/drawable/ic_moreitem.xml" value="0.2703125" />
+        <entry key="..\:/Android studio project/Fvss_Project/app/src/main/res/drawable/ic_user_logo.xml" value="0.2703125" />
+        <entry key="..\:/Android studio project/Fvss_Project/app/src/main/res/layout/activity_admin.xml" value="0.2033514492753623" />
+        <entry key="..\:/Android studio project/Fvss_Project/app/src/main/res/layout/activity_admin_profile.xml" value="0.2033514492753623" />
+        <entry key="..\:/Android studio project/Fvss_Project/app/src/main/res/layout/activity_login.xml" value="0.13632246376811594" />
+        <entry key="..\:/Android studio project/Fvss_Project/app/src/main/res/layout/activity_main.xml" value="0.2033514492753623" />
+        <entry key="..\:/Android studio project/Fvss_Project/app/src/main/res/layout/activity_register.xml" value="0.2078804347826087" />
+        <entry key="..\:/Android studio project/Fvss_Project/app/src/main/res/layout/activity_register_fragment.xml" value="0.2078804347826087" />
+        <entry key="..\:/Android studio project/Fvss_Project/app/src/main/res/layout/activity_resetpassword.xml" value="0.2078804347826087" />
+        <entry key="..\:/Android studio project/Fvss_Project/app/src/main/res/layout/admin_login.xml" value="0.2078804347826087" />
+        <entry key="..\:/Android studio project/Fvss_Project/app/src/main/res/layout/admin_main.xml" value="0.2078804347826087" />
+        <entry key="..\:/Android studio project/Fvss_Project/app/src/main/res/layout/admin_register.xml" value="0.2078804347826087" />
+        <entry key="..\:/Android studio project/Fvss_Project/app/src/main/res/layout/fragment_owner_register.xml" value="0.2078804347826087" />
+        <entry key="..\:/Android studio project/Fvss_Project/app/src/main/res/layout/fragment_user_register.xml" value="0.2078804347826087" />
+        <entry key="..\:/Android studio project/Fvss_Project/app/src/main/res/menu/mymenu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
